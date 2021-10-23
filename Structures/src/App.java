@@ -9,6 +9,6 @@ public class App {
         secondNodo.next = thirdNodo;
         thirdNodo.next = fourthNodo;
         fourthNodo.next = fifthNodo;
-        firstNodo.getNext(fifthNodo);
+        firstNodo.getNext(firstNodo);
     }
 }

@@ -8,9 +8,10 @@ public class Node {
         return this.value;
     }
     public void getNext(final Node node){
-        System.out.println(node.getValue());
-        if(this.next != null){
-            this.getNext(this.next);
+        System.out.print(node.getValue());
+        if(node.next != null){
+            this.getNext(node.next);
         }
     }
+    
 }
