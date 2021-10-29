@@ -12,7 +12,7 @@ public class Persona {
     }
     public int getId(){return id;}
 
-    //metodo usando void cuando queremos devolver algo solo mostrar
+    //metodo usando void cuando no queremos devolver algo solo mostrar
     public void saludar(){
         System.out.println(mensaje()); //se usa encapsulamiento
     }
