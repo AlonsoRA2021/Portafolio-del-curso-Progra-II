@@ -1,4 +1,8 @@
-/*import org.junit.Test;
+/*package test;
+import org.junit.Test;
+
+import Entities.DNode;
+
 import static org.junit.Assert.assertEquals;
 
 public class DNodeTest {
