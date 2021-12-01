@@ -1,4 +1,2 @@
-Asi escribe el escritor caracter por caracter
-Nueva linea
-Nueva linea
-Nueva linea
+Hola mundo!
+Esta es una nueva linea.

@@ -75,8 +75,5 @@ public class Lector {
             return stringBuffer.toString();
         }
     }
-    public String getNombreArchivo(){
-        return nombreArchivo;
-    }
-    
+
 }

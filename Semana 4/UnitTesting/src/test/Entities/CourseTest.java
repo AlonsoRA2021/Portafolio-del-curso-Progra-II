@@ -1,4 +1,4 @@
-/*package test.Entities;
+package test.Entities;
 
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
@@ -31,4 +31,4 @@ public class CourseTest {
         course.setTeacher(teacher);
         assertEquals(course.getTeacher().getFirstName(), "John");
     }
-}*/
+}
