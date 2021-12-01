@@ -13,7 +13,7 @@ public class App {
         
         /*ejemplo de herencia
         Persona empleado = new Persona();
-        empleado.nota = 70.75d;*/
+        empleado.nota = 70.75d;*/ //empleado carece del atributo nota
         
         //ejemplo polimorfismo
         Persona persona = new Persona();
@@ -26,7 +26,7 @@ public class App {
         System.out.println(persona.getId());
         
         //casting, validacion o transformacion explicita de datos del tipo de dato A al tipo de dato B
-        if(persona instanceof Estudiante){ //instanceof permite llamar y ejecutar atributos de un objeto se espera sea hijo de otro objeto
+        if(persona instanceof Estudiante){ //instanceof permite llamar y ejecutar atributos de un objeto que se espera sea hijo de otro objeto
             System.out.println(((Estudiante)persona).nota);
         }
     }

@@ -9,7 +9,7 @@ public class Persona {
                          //por esa razon se usa la clase persona.java en otra carpeta para ejemplificar 
 
     //constructor
-    public Persona(){} //se crea vacio para poder crear nuevas personas
+    public Persona(){} //se crea vacio para poder crear nuevas personas sin parámetros
 
     public Persona(int id){
         this.id = id;

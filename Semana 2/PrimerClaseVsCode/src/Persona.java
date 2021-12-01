@@ -25,5 +25,5 @@ public class Persona {
         return "Hola me llamo " + nombre + " y mi ID es " + id; //retorno del encapsulamiento
     }
 
-    //NOTA: la palabra reservada protected se utiliza para proteger llamado desde otras ventanas
+    //NOTA: la palabra reservada protected se utiliza para proteger llamado desde otros paquetes
 }

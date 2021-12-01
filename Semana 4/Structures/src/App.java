@@ -1,5 +1,7 @@
-public class Principal {
+public class App {
     public static void main(String[] args) throws Exception {
+        doubleNodes();
+        singleNode();
         /*Node firstNodo = new Node("H");
         Node secondNodo = new Node("E");
         Node thirdNodo = new Node("L");
@@ -11,13 +13,18 @@ public class Principal {
         fourthNodo.next = fifthNodo;
         firstNodo.getNext(firstNodo);*/
 
+    }
+
+    private static void singleNode(){
         //imprimir String en caracteres
         Node firstNodo = new Node('H',
             new Node('E',
                 new Node('L',
                     new Node('L',
-                            new Node('O')))));
-        //firstNodo.getNext(firstNodo);
+                         new Node('O')))));
+        firstNodo.getNext(firstNodo);
+    }
+    private static void doubleNodes(){
         //doble nodo enlazado 
         DNode one = new DNode("B",
                     new DNode("A"),
