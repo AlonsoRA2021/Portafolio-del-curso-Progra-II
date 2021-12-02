@@ -5,11 +5,16 @@ public abstract class Persona {
     public String nombre;
     public String apellido;
     public int edad;
-    public Persona(int id, String nombre, String apellido){
+    public String rol;
+    public Persona(String rol){
+        this.rol = rol;
+    }
+    /*public Persona(int id, String nombre, String apellido, String rol){
         this.id = id;
         this.nombre = nombre;
         this.apellido = apellido;
-    }
+        this.rol = rol;
+    }*/
     public int getId(){
         return this.id;
     }

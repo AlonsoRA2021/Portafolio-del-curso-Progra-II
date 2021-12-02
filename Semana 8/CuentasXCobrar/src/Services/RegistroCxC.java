@@ -16,9 +16,7 @@ public class RegistroCxC {
      * @param cliente El cliente con total adeudado
      * @throws Exception Si el usuario no es Admin
      */
-    public void registrar(
-        final Usuario usuario, 
-        final Cliente cliente) throws Exception{
+    public void registrar(final Usuario usuario, final Cliente cliente) throws Exception{
             if(!usuario.rol.equals(Roles.ADMIN.name())){
                 throw new Exception(
                     "Solo los administradores "
