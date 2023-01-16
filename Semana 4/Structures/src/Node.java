@@ -3,7 +3,7 @@ public class Node {
     private char value;
     public Node(final char value){
         this.value = value;
-        int c = Utilities.suma(1, 1)
+        int c = Utilities.suma(1, 1);
     }
 
     //imprimir String en caracteres

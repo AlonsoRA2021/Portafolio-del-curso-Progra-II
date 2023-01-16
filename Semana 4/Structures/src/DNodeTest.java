@@ -1,7 +1,5 @@
-/*package test;
-import org.junit.Test;
 
-import Entities.DNode;
+import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
@@ -27,4 +25,4 @@ public class DNodeTest {
         one.setBefore(new DNode("A"));
         assertEquals(one.goBackwards(one), "AB");           
     }
-}*/
+}
